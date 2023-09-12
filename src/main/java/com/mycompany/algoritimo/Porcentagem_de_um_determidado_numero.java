@@ -12,11 +12,15 @@ import java.util.Scanner;
  */
 public class Porcentagem_de_um_determidado_numero {
     public static void main(String[] args) {
+        //Declara que sera exibido na tela
         Scanner entrada = new Scanner(System.in);
+        //variavel para número quebrados
         float numero, porcentagem, resultado;
         
+        //Printa na tela para o usuario 
         System.out.println("Ecolha o numeruo para retirar a porcentagem de 10%");
         
+        //permite a entrada do numero escolhido 
         numero = entrada.nextInt();
         
         System.out.println("Valor da porcentagem");
@@ -24,7 +28,7 @@ public class Porcentagem_de_um_determidado_numero {
         porcentagem = entrada.nextInt();
        
        
-       
+        //aqui foi utilizado (float devido ao confrito)
         resultado = (float) (numero * porcentagem / 100);
         
         System.out.println("Resultado da Porcetageam " + resultado);

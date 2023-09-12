@@ -8,30 +8,28 @@ import java.util.Scanner;
 
 /**
  *
- * @author romario.2919
+ * @author romario.29191
  */
 public class Lista_numero_maior {
+
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
-        int numeros, maior;
+        int num1, num2;
         System.out.println("--------------------------");
         //Usuario Informrá os números dessejado;
-        System.out.println("Informe a lista de números");
-        numeros = entrada.nextInt();
+        System.out.println("Informe números 1");
+        num1 = entrada.nextInt();
         System.out.println("--------------------------");
+        System.out.println("Informe  números 2");
+        System.out.println("----------------------------");
+        num2 = entrada.nextInt();
         
-        while(numeros = maior);{
-        
-            numeros 
-            
-            System.out.println(maior);
-            
+        if(num1 > num2){
+            System.out.println(num1 + " é maior do que " + num2);
+        }else if(num1 < num2){
+            System.out.println(num1 + " é menor do que " + num2);
+        }else{
+            System.out.println(num1 + " é igual a " + num2);
         }
-                    
-                    
-        
-        
-       
-                
     }
 }
