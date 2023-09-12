@@ -13,15 +13,19 @@ import java.util.Scanner;
 public class Porcentagem_de_um_determidado_numero {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
-        float numero, resultado;
+        float numero, porcentagem, resultado;
         
         System.out.println("Ecolha o numeruo para retirar a porcentagem de 10%");
         
         numero = entrada.nextInt();
+        
+        System.out.println("Valor da porcentagem");
+        
+        porcentagem = entrada.nextInt();
        
        
        
-        resultado = (float) (numero * 0.1);
+        resultado = (float) (numero * porcentagem / 100);
         
         System.out.println("Resultado da Porcetageam " + resultado);
    
